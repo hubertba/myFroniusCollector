@@ -6,7 +6,12 @@ public class FroniusDataCollector {
 
     }
 
-	public void run() {
-	}
+	public void run(String ipAddress) {
+
+        DataCollection myData = ReadFronius.calcMainData(ipAddress);
+        
+
+
+    }
     
 }

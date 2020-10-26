@@ -49,7 +49,7 @@ public class ReadFronius {
 
 	}
 
-	private static void calcStringData(String ipadresse) {
+	public static void calcStringData(String ipadresse) {
 		// TODO think about Date handling
 		Date date= new Date(); // your date
 		// Choose time zone in which you want to interpret your Date
@@ -96,7 +96,7 @@ public class ReadFronius {
 
 	}
 
-	private static DataCollection calcMainData(String ipadresse) {
+	public static DataCollection calcMainData(String ipadresse) {
 		double p_pv = 0.0;
 		double e_total = 0.0;
 
